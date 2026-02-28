@@ -24,12 +24,12 @@ variable "ikey" {
 }
 
 variable "icount" {
-  type    = "number"
+  type    = number
   default = "1"
 }
 
 variable "isize" {
-  type    = "number"
+  type    = number
   default = "10"
 }
 
