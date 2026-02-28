@@ -1,1 +1,3 @@
+create 2 servers in 2 differnt datacenters in aws
 
+Sol- we will use alias and providers
