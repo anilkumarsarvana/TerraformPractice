@@ -8,10 +8,10 @@ resource "aws_instance" "myinstance" {
   instance_type     = "var.itype"
   key_name          = "var.ikey"
   availability_zone = "var.izone"
-  count             = "var.icount"
+  count             = var.icount
 
   root_block_device {
 
-    volume_size = "var.isize"
+    volume_size = var.isize
   }
 }
