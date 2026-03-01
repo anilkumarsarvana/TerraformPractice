@@ -8,3 +8,5 @@ cp day-1/resource.tf  day-2/
 variables and outputs
 Day-3
 creation of security group, alias and providers
+Day-4
+workspace,local,taint,igone,lifecycle and import
